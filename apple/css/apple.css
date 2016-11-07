@@ -1,0 +1,198 @@
+body, ul, li, ol, img, a, i, input, form, h1, h2, h3, h4, h5, h6, p, b, dl, dt, dd, td, th, pre, span {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+.top{
+    width:100%;
+    height:40px;
+    background:#444;
+}
+.top-text{
+    width:976px;
+    height:100%;
+    background:#444;
+    margin:0 auto;
+    color: #a8a8aa;
+    font-size: 12px;
+    font-family:"微软雅黑";
+    text-align: right;
+    line-height:40px;
+}
+.header{
+    width:100%;
+    height:44px;
+    background:#333333;
+}
+.ac-gn-content{
+    width:1000px;
+    height:44px;
+    margin:0 auto;
+    background:#333333;
+}
+.ac-gn-item {
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    vertical-align: top;
+    margin-right:60px;
+}
+.ac-gn-link-apple {
+    display:block;
+    background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url("../img/image_large.svg");
+    background-position: center center;
+    width: 20px;
+    height: 44px;
+}
+.ac-gn-link-mac{
+    display:block;
+    width:51px;
+    height:44px;
+    line-height:44px;
+}
+span{
+    font-size:14px;
+    color:white;
+    font-family:"微软雅黑";
+}
+.ac-gn-link{
+    display:block;
+    height:44px;
+    line-height:44px;
+}
+.ac-gn-link-ipad{
+    width:50px;
+}
+.ac-ln-wrapper{
+    width:100%;
+    height:52px;
+
+}
+
+.ac-ln-content{
+    margin: 0 auto;
+    max-width: 980px;
+    height:52px;
+    position: relative;
+    z-index: 2;
+    border-bottom:1px solid #EFEFEF;
+}
+.ac-ln-title {
+    font-size: 28px;
+    line-height: 1.85714;
+    font-weight: 300;
+    letter-spacing: normal;
+    cursor: default;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 52px;
+    white-space: nowrap;
+}
+.ac-ln-menu {
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: normal;
+    float: right;
+    line-height: 44px;
+    padding-top: 8px;
+}
+.ac-ln-menu-tray {
+    float: left;
+    margin-left:50px;
+}
+.ac-ln-menu-item {
+    margin-left: 24px;
+    float: left;
+}
+.ac-ln-menu-link.current {
+    color: rgba(51,51,51,0.6);
+    cursor: default;
+}
+.ac-ln-action {
+    margin-left: 24px;
+    float: left;
+}
+.ac-ln-button {
+    background-color: #2189db;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.54615;
+    font-weight: 500;
+    letter-spacing: normal;
+    padding: 0 10px;
+    /*display:block;*/
+    /*width:44px;*/
+    /*height:22px;*/
+
+}
+.has-center-content {
+    height: 30%;
+    width: 100%;
+    padding-top: 54px;
+}
+.center-content{
+    position:relative;
+}
+.logo-image-macbookpro {
+    width: 186px;
+    height: 24px;
+    background-size: 186px 24px;
+    background-repeat: no-repeat;
+    background-image: url("../img/logo_macbookpro_large.png");
+    left: 50%;
+    margin-left: -93px;
+    position: relative;
+    top:35px;
+}
+.homepage-headline {
+    width:400px;
+    height:48px;
+    font-size:35px;
+   margin:0 auto;
+}
+.zi{
+    width:100%;
+    height:48px;
+
+    margin-top:50px;
+}
+.banner{
+    width:100%;
+    height:420px;
+    background:red;
+}
+.imgbox{
+    width:1349px;
+    height:420px;
+    background:yellow;
+    margin:0 auto;
+    /*background-position:center;*/
+}
+.promos{
+  width:100%;
+    height:204px;
+
+    border-bottom:2px solid #fff;
+}
+.promos ul li{
+    list-style-type: none;
+    box-sizing: border-box;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    overflow: hidden;
+}
+.promos ul li img
+
+
